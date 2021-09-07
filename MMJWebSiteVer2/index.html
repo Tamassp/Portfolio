@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <title>MMJ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div id="popup2">
+        <h2>Leiras</h2>
+        <p>Itt lesznek az informaciok Itt lesznek az informaciok Itt lesznek az informaciok Itt lesznek az informaciok Itt lesznek az informaciok Itt lesznek az informaciok</p>
+        <div class="row justify-content-center mt-2 ">
+            <div class="col-xs-12 mr-2">
+                <a onclick="toggle2()" class="btn btn-primary">Vissza</a>
+            </div>
+        </div>
+    </div>
+    <div id="popup">
+        <div class="container">
+            <div class="row justify-content-center text-center pb-3">
+                <div class=" col-md-12 mt-3">
+                    <!--<form>
+                    <div class="form-group">
+                        <label for="addressee">Címzett:</label>
+                        <input type="text" class="form-control" id="adresse" placeholder="Add meg a címzettet">
+
+                    </div>
+                    <div class="form-group">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class=" btn-link" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="false" aria-controls="collapseOne">
+                                            <label for="greetingText">Köszöntő szöveg:</label>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <select class="form-control" id="greetingTextSelect">
+                                            <option>Boldog Karácsonyt kívánok sok sok szeretettel családodnak és egy élményekkel teli új évet</option>
+                                            <option>Isten éltesse kjasdhkasd asdk jhask djhasdk jha skjh dkjah kdj shak djask jhdask jhdk jahk jdhaks jhkas jhkdj hak sdjhkjashd</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                        <label for="greetingText">Mást szeretnél?</label>
+                                        <input type="text" class="form-control" id="greetingText" placeholder="Írd ide">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        
+                       
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class=" btn-link" data-toggle="collapse" data-target="#collapseTwo"  aria-controls="collapseTwo">
+                                        <label for="greetingText">Alkalom:</label>
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <select class="form-control" id="greetingTextSelect">
+                                        <option>nevnap</option>
+                                        <option>szulinap</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                    <label for="greetingText">Mást szeretnél?</label>
+                                    <input type="text" class="form-control" id="greetingText" placeholder="Írd ide">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                    
+                    <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class=" btn-link" data-toggle="collapse" data-target="#collapseThree"   aria-expanded="false" aria-controls="collapseOne">
+                                            <label for="greetingText">Köszöntő szöveg:</label>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <select class="form-control" id="greetingTextSelect">
+                                            <option>Boldog Karácsonyt kívánok sok sok szeretettel családodnak és egy élményekkel teli új évet</option>
+                                            <option>Isten éltesse kjasdhkasd asdk jhask djhasdk jha skjh dkjah kdj shak djask jhdask jhdk jahk jdhaks jhkas jhkdj hak sdjhkjashd</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                        <label for="greetingText">Mást szeretnél?</label>
+                                        <input type="text" class="form-control" id="greetingText" placeholder="Írd ide">
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                    
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class=" btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">
+                                    <label for="greetingText">Elerhetoseg es megjegyzes:</label>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" aria-expanded="false" >
+                            <div class="card-body">
+                                <select class="form-control" id="greetingTextSelect">
+                                    <option>Boldog Karácsonyt kívánok sok sok szeretettel családodnak és egy élményekkel teli új évet</option>
+                                    <option>Isten éltesse kjasdhkasd asdk jhask djhasdk jha skjh dkjah kdj shak djask jhdask jhdk jahk jdhaks jhkas jhkdj hak sdjhkjashd</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                                <label for="greetingText">Mást szeretnél?</label>
+                                <input type="text" class="form-control" id="greetingText" placeholder="Írd ide">
+                            </div>
+                        </div>
+                
+                        </div>
+
+                </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>-->
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingZero">
+                                <h5 class="mb-0">
+                                    <button id="nameButton2" class="btn btn-link" data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+                                        Feladó:
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseZero" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <input id="inputSenderName" class="form-control" type="text" placeholder="Add meg a nevet" onfocusout="nameUpdate2()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button id="nameButton" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Cimzett:
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <input id="inputReceiverName" class="form-control" type="text" placeholder="Add meg a nevet" onfocusout="nameUpdate()">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Koszonto szoveg
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                Valassz
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        <p>asdkbadskh baksndbkas bkd sabk sadnbkd snbasl ndmsba ldb lasm,f b,asf nbsfmlnlnb fk nbal fmbnl f, asjhdsakjasdvh kajsdgvsadj gvask djgvkdjgvads j d</p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        <p>asdkbadskh baksndbkas bkd sabk sadnbkd snbasl ndmsba ldb lasm,f b,asf nbsfmlnlnb fk nbal fmbnl f, asjhdsakjasdvh kajsdgvsadj gvask djgvkdjgvads j d</p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        <p>asdkbadskh baksndbkas bkd sabk sadnbkd snbasl ndmsba ldb lasm,f b,asf nbsfmlnlnb fk nbal fmbnl f, asjhdsakjasdvh kajsdgvsadj gvask djgvkdjgvads j d</p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                                    <label class="form-check-label" for="exampleRadios4">
+                                        <h3>Egyebet szeretnel?</h3>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ird ide"></textarea>
+
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Alkalom
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                Valassz
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="bexampleRadios1">
+                                        <p>asdkbadskh </p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadios2" value="option2">
+                                    <label class="form-check-label" for="bexampleRadios2">
+                                        <p>asdkbadskh </p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadios3" value="option3">
+                                    <label class="form-check-label" for="bexampleRadios3">
+                                        <p>asdkbadskh </p>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadios4" value="option4">
+                                    <label class="form-check-label" for="bexampleRadios4">
+                                        <h3>Egyebet szeretnel?</h3>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ird ide"></textarea>
+
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Sablon valasztasa
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    <!-- Swiper 
+                                    <div class="swiper-container mt-3 mb-1">
+                                        <div class="swiper-wrapper ">
+                                            <div class="swiper-slide">
+
+                                                <div class="card">
+                                                    <iframe src="https://www.youtube.com/embed/Y5oWNS7Rx1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Sziluett meghívó</h5>
+                                                        <a class="btn btn-primary">Részletek</a>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="card">
+                                                    <iframe src="https://www.youtube.com/embed/XE2GfJL8D2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Vonalrajz meghívó</h5>
+                                                        <a class="btn btn-primary">Részletek</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        Add Pagination 
+                                        <div class="swiper-pagination"></div>
+
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+-->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadiosc" value="option1">
+                                        <label class="form-check-label" for="bexampleRadios1c">
+                                            <div class="card">
+                                                <iframe src="https://www.youtube.com/embed/KFSCQD3U16c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Ruhásüzlet újranyitás animáció</h5>
+                                                    <a class="btn btn-primary">Részletek</a>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadios2c" value="option2">
+                                        <label class="form-check-label" for="bexampleRadios2c">
+                                            <div class="card">
+                                                <iframe src="https://www.youtube.com/embed/KFSCQD3U16c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Ruhásüzlet újranyitás animáció</h5>
+                                                    <a class="btn btn-primary">Részletek</a>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="bexampleRadios3c" value="option3">
+                                        <label class="form-check-label" for="bexampleRadios3c">
+                                            <div class="card">
+                                                <iframe src="https://www.youtube.com/embed/KFSCQD3U16c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Ruhásüzlet újranyitás animáció</h5>
+                                                    <a class="btn btn-primary">Részletek</a>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Elerhetoseg
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="card-body">
+                                    <input class="form-control" type="text" id="inputName" placeholder="Add meg a nevet">
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    <input type="text" class="form-control" id="inputTel" placeholder="Telefonszam">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row justify-content-center mt-2 ">
+                            <div class="col-xs-12 mr-2">
+                                <a onclick="toggle()" class="btn btn-primary">Vissza</a>
+                            </div>
+                            <div class="col-xs-12 mr-2">
+                                <button type="submit" id="submitbtn" class="btn btn-primary" onclick="saveFile()" href="mailto:petertamas05@yahoo.com">>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="blur">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <nav class="navbar navbar-custom navbar-expand-md  mt-5">
+
+                    <div>
+                        <a class="navbar-brand" href="index.html?#hu"><img id="navLogo" src="images/mmjLogo140px.png"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"><span class="navbar-toggler-icon"></span></button>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html?#hu">Főoldal |</a></li>
+                            <li class="nav-item"><a class="nav-link" href="greetings.html">Online Képeslapok |</a></li>
+                            <li class="nav-item">
+                                <!--<div id="languageBox">
+                            <a class="nav-link" href="#hu" data-reload><img class="flag" src="images/hunflag.png"></a>
+                            <a class="nav-link" href="#ro" data-reload><img class="flag" src="images/romflag.png"></a>
+                        </div>-->
+                            </li>
+                            <!--<li class="nav-item">
+                    <select class="nav-link" data-width="fit">
+                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                    <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                    </select>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-expanded="false">HU<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">HU</a></li>
+                        <li><a href="#">RO</a></li>
+
+                    </ul>
+                </li>-->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container-fluid pl-4 pr-4">
+                <div class="text-background">
+
+                    <div class="row">
+                        <div class="col-md-6 ml-4 pt-5 pr-5 ">
+                            <p>Újdonság: ONLINE KÉPESLAP</p>
+                            <p>Köszöntsd fel szeretteidet kis videóval</p>
+                            <p>Hogy is működik ez?<a id="infoImg" onclick="toggle2()"><img class="infoIcon" src="images/hunflag.png"></p></a>
+
+
+                            <a onclick="toggle()" class="btn btn-primary">Kérem</a>
+                        </div>
+
+                        <div class="col-lg-5 fade-In d-flex justify-content-center"><img class="animationTag" src="images/hello.png"></div>
+
+                    </div>
+
+                    <!--<div class="row justify-content-center text-center">
+                <div class="col-xs-1 col-md-2 mt-5 mb-5 "><a href="https://www.facebook.com/mmj.anim/"><i class="fab fa-facebook fa-5x"></i></a></div>
+                <div class="col-xs-1 col-md-2 mt-5 mb-5 "><a href="https://www.youtube.com/channel/UCsOO-JZXzjXdC0BSsVf8rnQ"><i class="fab fa-youtube fa-5x"></i></a></div>
+            </div>-->
+
+
+                </div>
+
+
+
+            </div>
+
+            <!--<div class="container-fluid footerContainer mt-auto">
+            <div id="customFooter">
+                <div class="row justify-content-center pt-1">
+                    <div class="col-md-8 ">
+                        <h4 id="contactLang">Kapcsolatok:</h4>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 text-center pt-2 p-0">
+                        <div id="fbIcon"><a id="fbLink" href="https://www.facebook.com/mmj.anim/"><img class="contactImage" src="images/facebook.png">mmj.anim</a></div>
+                    </div>
+                    <div class="col-lg-3 text-center pt-2 p-0">
+                        <div id="mailIcon"><a id="mailLink" href="mailto:office@mmj.ro"><img class="contactImage" src="images/mail.png">office@mmj.ro</a></div>
+                    </div>
+                    <div class="col-lg-2 text-center pt-2 p-0">
+                        <div id="ytIcon"><a id="ytLink" href="https://www.youtube.com/channel/UCsOO-JZXzjXdC0BSsVf8rnQ"><i class="fab fa-youtube fa-5x"></i>youtube</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>-->
+        </div>
+            <div class="push"></div>
+            <div class="container-fluid ">
+                <footer class="py-3 bg-light  newFooter">
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2 text-center pt-2 p-0">
+                                <div id="fbIcon"><a id="fbLink" href="https://www.facebook.com/mmj.anim/"><img class="contactImage" src="images/facebook.png">mmj.anim</a></div>
+                            </div>
+                            <div class="col-lg-3 text-center pt-2 p-0">
+                                <div id="mailIcon"><a id="mailLink" href="mailto:office@mmj.ro"><img class="contactImage" src="images/mail.png">office@mmj.ro</a></div>
+                            </div>
+                            <div class="col-lg-2 text-center pt-2 p-0">
+                                <div id="ytIcon"><a id="ytLink" href="https://www.youtube.com/channel/UCsOO-JZXzjXdC0BSsVf8rnQ"><i class="fab fa-youtube fa-5x"></i>youtube</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </footer>
+            </div>
+        
+
+
+
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/language.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <!--<script src="js/scriptM.js"></script>-->
+
+</body>
+
+</html>

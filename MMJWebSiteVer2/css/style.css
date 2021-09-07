@@ -1,0 +1,902 @@
+@font-face {
+    font-family: 'font';
+    src: url(../font/TCCM.TTF);
+    font-style: normal;
+    font-weight: 100;
+}
+
+* {
+
+    /*font-family: font;
+    font-size: 1.5rem;
+    color: black;*/
+
+
+
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/*navbar changes*/
+.navbar-custom {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 50px;
+    background-color: #ffffff;
+
+    border-top: solid black;
+    border-bottom: solid black;
+    width: 100%;
+
+}
+
+.nav-link {
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+#myNavbar {
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: inherit;
+
+}
+
+#languageBox {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    height: 100%;
+    width: 100%;
+
+    padding: 0;
+}
+
+#languageBox .nav-link {
+    height: 100%;
+    width: auto;
+}
+
+#welcome3 {
+    display: inline-block;
+}
+
+#welcome5 {
+    display: inline;
+}
+
+.infoIcon {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.footerContainer {
+    bottom: 0;
+}
+
+/*FADEIN ANIMATION*/
+.fade-In {
+    -webkit-animation: fadein 4s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 4s;
+    /* Internet Explorer */
+    -o-animation: fadein 4s;
+    /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*ENDOFFADEIN*/
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    height: 100%;
+    width: auto;
+
+}
+
+#navLogo {
+    height: 7vh;
+    width: auto;
+}
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+body {
+    overflow-x: hidden;
+
+
+}
+
+
+.helloImg {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 75%;
+}
+
+.animationTag {
+
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.helloMeghImg {
+    max-width: 50vw;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    margin-top: 10%;
+
+    font-size: 8rem;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a.bigFont,
+a.bigFont:hover {
+    color: #F4837D;
+    font-size: 4rem;
+    text-decoration: none;
+    position: relative;
+
+}
+
+
+
+.nav-link::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.5s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.navbar-toggler {
+    width: 45px;
+    height: 45px;
+    background-image: url(../images/Hamburger_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    animation-name: navFlip;
+    animation-duration: 2s;
+}
+
+.navbar-toggler:enabled {
+    outline: none;
+
+
+}
+
+@keyframes navFlip {
+    100% {
+        transform: rotate(90);
+    }
+}
+
+
+
+.text-background {
+
+
+    /* Fallback for older browsers without RGBA-support */
+    /* background: rgba(50, 93, 127,1);*/
+
+
+
+
+}
+
+
+
+.buttonMarginFix {
+    margin-bottom: 0;
+}
+
+.firstTypeContainer {
+    color: black;
+    margin-top: 0px;
+    border-top-right-radius: 20vw;
+    background-color: rgb(242, 114, 127);
+    /*overflow: hidden;*/
+}
+
+.card-body {
+    background-color: rgb(243, 235, 219);
+}
+
+.secondTypeContainer {
+    color: black;
+    /*border-top-left-radius: 20vw;*/
+    background-color: rgb(248, 177, 147);
+    clear: right;
+}
+
+.tvPng {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    z-index: 6;
+    pointer-events: none;
+
+}
+
+.monitorPng {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.videoTV {
+    position: absolute;
+    z-index: 5;
+}
+
+.videoTV2 {
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+
+.videoMonitor {
+    position: absolute;
+    z-index: 5;
+}
+
+.videoMonitor2 {
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+
+.alapPremium {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.navbar {
+    z-index: 2;
+
+}
+
+
+
+/*.video-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}*/
+
+
+
+
+
+.bg {
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+#video {
+    z-index: -1;
+    position: fixed;
+    width: auto;
+    height: auto;
+
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+
+}
+
+.gif {
+    width: 100%;
+    height: auto;
+}
+
+.gif-small {
+    width: 100%;
+    height: auto;
+}
+
+#gif3 {
+    width: 100%;
+    height: auto;
+}
+
+#gif4,
+#gif5 {
+    width: 100%;
+    height: auto;
+}
+
+h4 {
+    color: black;
+}
+
+
+
+.fa-youtube {
+    font-size: 1.1rem;
+    color: white;
+    position: relative;
+    margin-left: 0;
+
+}
+
+/*.fa-facebook:hover {
+    color: slategrey;
+    animation: hover1 0.6s;
+}
+
+.fa-youtube:hover {
+    color: slategrey;
+    animation: hover1 0.6s;
+}*/
+
+.social {
+    padding-left: 100px;
+
+}
+
+.social1 {
+    padding-right: 100px;
+
+}
+
+.gifBackground {
+    background-color: beige;
+}
+
+
+
+@keyframes hover1 {
+    25% {
+
+        margin-left: -10px;
+
+    }
+
+    50% {
+
+        margin-left: 10px;
+    }
+
+    75% {
+
+        margin-left: -10px;
+    }
+
+    100% {
+        margin-left: 0;
+
+    }
+}
+
+.to-the-top {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+/*FOOTER*/
+
+.newFooter {
+    
+    
+    width: 100%;
+    max-width: 100%;
+    border-top: solid black;
+    border-bottom: solid black;
+
+}
+
+.relativePos {
+    position: relative;
+}
+
+.push {
+    height: 50px;
+}
+
+
+
+h4 {
+    color: black;
+
+}
+
+.orderBtn {
+    text-align: center;
+}
+
+#customFooter {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 140px;
+    border-radius: 20% 75% / 100% 100% 0 0;
+    background: blue;
+    max-width: 80%;
+
+
+
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+
+.footerRow {
+    position: absolute;
+    z-index: 7;
+    top: 90%;
+    width: 80%;
+    text-align: center;
+    font-size: 20px !important;
+
+
+
+}
+
+#footerImg {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+
+}
+
+.lastRow {
+    padding-bottom: 0px;
+}
+
+
+
+
+.footerHeightDiv {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(235, 73, 96);
+}
+
+#contactLang {
+    font-size: 1.3rem;
+}
+
+.contactIcon {
+    z-index: 5;
+    position: absolute;
+    top: 40%;
+    padding: 0;
+    margin: 0;
+
+}
+
+#contactId {
+    z-index: 5;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    font-size: 1.9rem;
+
+}
+
+#condtactUnderline {
+    z-index: 5;
+    top: 35%;
+    left: 20%;
+    position: absolute;
+    max-width: 120px;
+    height: auto;
+}
+
+#fbIcon {
+    max-height: 35px;
+}
+
+#mailIcon {
+    max-height: 35px;
+}
+
+#ytIcon {
+    max-height: 35px;
+    color: black;
+}
+
+#fbLink {
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+#mailLink {
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+#ytLink {
+    padding: 0;
+    position: relative;
+    max-height: 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.contactImage {
+    max-height: 35px;
+    max-width: 35px;
+}
+
+
+/*Swiper style----------------*/
+.swiper-container {
+    width: 80%;
+    height: 100%;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    /*border: 5px solid  rgba(39, 54, 59, 0.97);
+    box-shadow: 15px 15px 10px rgba(39, 30, 30, 0.97);*/
+
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 10px;
+    background: #fff;
+    max-width: 10rem;
+
+
+}
+
+.container-fluid#blur.active {
+    filter: blur(20px);
+    /*visibility: hidden;*/
+    pointer-events: none;
+    user-select: none;
+
+}
+
+#blur.active {
+    filter: blur(20px);
+    background-color: darkgray;
+    /*visibility: hidden;*/
+    pointer-events: none;
+    user-select: none;
+
+}
+
+#popup {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33%;
+    height: 90%;
+    max-height: 90%;
+    min-width: 50%;
+    margin-bottom: 0;
+    padding: 0px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .80);
+    /*background-color: rgb(248, 177, 147);*/
+    background-color: white;
+    z-index: 15;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.card-body {
+    background-color: rgb(248, 177, 147);
+}
+
+.form-check,
+.card .collapse {
+    background-color: rgb(248, 177, 147);
+
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+#popup2 {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 33%;
+    height: 90%;
+    max-height: 90%;
+    margin-bottom: 0;
+    padding: 0px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .80);
+    background-color: rgb(248, 177, 147);
+    z-index: 15;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+#popup2.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+@media (max-width: 1300px) {
+    #customFooter {
+        max-width: 100%;
+        left: 0;
+        height: 150px;
+        margin: 0px;
+        align-content: center;
+
+    }
+}
+
+@media (max-width:
+
+    /*1050px*/
+    992px) {
+    .flag {
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+    #languageBox .nav-link {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+
+    #customFooter {
+        max-width: 100%;
+        left: 0;
+        height: 250px;
+        margin: 0px;
+        align-content: center;
+
+    }
+
+    #popup {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+.form-check-label {
+    width: 90%;
+}
+
+
+
+.swiper-container {
+    max-width: 100%;
+}
+
+.greetingCard {
+    width: auto;
+    height: auto;
+}
+
+#popup2 {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*width: 80%;
+    height: auto;*/
+    max-height: 75%;
+
+    padding: 40px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .80);
+    background-color: rgb(248, 177, 147);
+    z-index: 15;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    * {
+        font-size: 1.1rem;
+    }
+
+    a.bigFont,
+    a.bigFont:hover {
+        font-size: 2.4rem;
+    }
+
+    .fa-youtube,
+    .fa-facebook {
+        font-size: 3vw;
+        color: white;
+    }
+
+    .navbar-custom {
+        width: 100%;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .text-background {
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+
+    .curveLeftUp,
+    .curveLeftDown,
+    .curveRightUp,
+    .curveRightDown {
+        max-width: 70px;
+        max-height: 70px;
+
+    }
+
+    #popup {
+        width: 80%;
+        height: auto;
+    }
+
+    #customFooter h4 {
+
+        margin-left: 20%;
+        margin-top: 20px;
+        align-content: center;
+
+    }
+
+
+
+
+
+}
